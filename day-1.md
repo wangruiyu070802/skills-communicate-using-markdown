@@ -4,7 +4,7 @@
 - [ ] Learn about [GitHub Pages](https://skills.github.com/#first-dayon-github).
 - [ ] Convert my first blog post into an actual webpage.
 ## Review
-Convert an an image or video from mode to light mode using [ffmpeg](https://www.ffmpeg.org)bash
-...bash
-ffmpeg -i input.mp4 -vf "negate.hue=h= 100,eq=contrast=1.2:saturation=1.1"output.mp4
-...
+Convert an an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)bash
+```bash
+ffmpeg -i input.mp4 -vf "negate.hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
